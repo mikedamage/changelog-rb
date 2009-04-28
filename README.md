@@ -24,4 +24,5 @@ If you don't have the access to a C compiler (i.e. Mac OS X without Developer To
 	* pathname
 * [RubyGems](http://rubygems.rubyforge.org)
 	* [RedCloth](http://redcloth.org/)
+	* [Hpricot](http://wiki.github.com/why/hpricot)
 	* [Sinatra](http://www.sinatrarb.com)
