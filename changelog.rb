@@ -6,8 +6,18 @@ require 'hpricot'
 require 'RedCloth'
 
 configure do
-	CONFIG = YAML.load_file(File.join(File.dirname(__FILE__), "config.yml"))
+	CONFIG = YAML.load_file(File.join(File.dirname(__FILE__), "config/config.yml"))
 	CHANGELOG = Pathname.new(CONFIG["application"]["changelog_file"])
+	
+	# Changelog Data Model
+	class Changelog
+		
+	end
+	
+	# Changelog Entry Model
+	class Entry
+		attr_accessor :date, :body
+	end
 end
 
 helpers do

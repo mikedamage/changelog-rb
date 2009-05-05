@@ -1,0 +1,7 @@
+# Changelog file location (absolute system path)
+application:
+  changelog_file: /path/to/changelog.txt
+
+rss:
+  # Maximum entries to show (set to 0 for all)
+  max_entries: 20
